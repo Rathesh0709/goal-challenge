@@ -242,7 +242,7 @@ function addGoals(goalsToAdd, multiplier, playerName,buttonContainer) {
                 buttonContainer
             );
         }
-    }, 500); // Add a short delay (e.g., 500ms) to allow visual updates
+    }, 1); // Add a short delay (e.g., 500ms) to allow visual updates
 }
 
 
