@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+}
+
+#player-info {
+    margin: 20px 0;
+}
+
+#player-photo {
+    width: 200px;
+    height: 200px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button.used {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+button:hover:not(.used) {
+    background-color: #0056b3;
+}
+
+#stats {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+#play-again-button {
+    margin-top: 20px;
+    background-color: #ff5722;
+    display: none; /* Hidden by default */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Centering the button */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#play-again-button:hover {
+    background-color: #d84315;
+}
+
+#result {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#credits {
+    margin: 20px;
+}
